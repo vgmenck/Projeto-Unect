@@ -1,0 +1,324 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F3ED;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 6px;
+}
+
+.background-nav{
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #57290B;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-itens {
+    list-style: none;
+    display: flex;
+}
+
+.logo {
+    position: absolute;
+    width: 138px;
+    height: 85px;
+    left: 651px;
+    top: 7px;
+}
+
+.detalhe1{
+    position: absolute;
+    width: 43px;
+    height: 2px;
+    left: 130px;
+    top: 64px;
+    
+    background: #B2784A;
+    border-radius: 1px;    
+}
+
+.btn-Cafeteria{
+    position: absolute;
+    width: 66px;
+    height: 27px;
+    left: 324px;
+    top: 39px;
+    cursor: pointer;
+
+    /* TEXTO */
+    position: absolute;
+    width: 60px;
+    height: 22px;
+    left: 324px;
+    top: 40px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F0F0F0;
+}
+
+.btn-Contato{
+    position: absolute;
+    width: 60px;
+    height: 27px;
+    left: 1055px;
+    top: 39px;
+    cursor: pointer;
+
+    /* TEXTO */
+    position: absolute;
+    width: 60px;
+    height: 22px;
+    left: 1055px;
+    top: 40px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F0F0F0;
+}
+
+
+.btn-SobreNos{
+    position: absolute;
+    width: 71px;
+    height: 27px;
+    left: 119px;
+    top: 39px;
+    cursor: pointer;
+
+    /* TEXTO */
+    position: absolute;
+    width: 71px;
+    height: 22px;
+    left: 119px;
+    top: 40px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F0F0F0;
+}
+
+.btn-Phone{
+    position: absolute;
+    width: 118px;
+    height: 25.86px;
+    left: 1202px;
+    top: 40px;
+    cursor: default;
+    margin-left: 10px;
+}
+
+#btn-text{
+ 
+    position: absolute;
+    width: 90px;
+    height: 22px;
+    top: 40px;
+    left: 1220px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #F0F0F0;
+
+}
+
+.icon-call{ 
+    position: absolute;
+    width: 20px;
+    height: 22.86px;
+    left: 1202px;
+    top: 43px;
+}
+
+
+.background-header{
+    position: absolute;
+    width: 1440px;
+    height: 559px;
+    left: 0px;
+    top: 99px;
+}
+
+.titulo{
+    position: absolute;
+    width: 589px;
+    height: 228px;
+    left: 119px;
+    top: 163px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 76px;
+
+    color: #F0F0F0;
+}
+
+.sub-titulo{
+    position: absolute;
+    width: 514px;
+    height: 66px;
+    left: 119px;
+    top: 407px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #F0F0F0;
+}
+
+.btn-cafeteria-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 27px;
+    position: absolute;
+    width: 283px;
+    height: 57px;
+    left: 120px;
+    top: 514px;
+    background: #8F542E;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#text-venha-conhecer{
+    width: 175px;
+    height: 57px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 57px;
+    letter-spacing: 0.03em;
+    color: #F0F0F0;
+}
+
+.retangulo{
+    position: absolute;
+    width: 255px;
+    height: 28px;
+    left: 104px;
+    top: 742px;
+    background: #FBC9A8;
+}
+
+.sobre-nos{
+    position: absolute;
+    width: 222px;
+    height: 56px;
+    left: 120px;
+    top: 715px;
+
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    color: #1F0C00;
+}
+
+.texto-princ1{
+    position: absolute;
+    width: 589px;
+    height: 96px;
+    left: 120px;
+    top: 810px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #1F0C00;
+}
+
+.texto-princ2{
+    position: absolute;
+    width: 589px;
+    height: 72px;
+    left: 120px;
+    top: 922px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    
+    color: #1F0C00;
+}
+
+.xicara{
+    position: absolute;
+    width: 352px;
+    height: 340.41px;
+    left: 912px;
+    top: 771px;
+}
+
+
+.vetor-onda {
+    position: absolute;
+    width: 1440px;
+    height: 199.08px;
+    top: 1200px;
+    left: 0; 
+}
+
+.btn-main-1{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 27px;
+    position: absolute;
+    width: 282px;
+    height: 57px;
+    left: 120px;
+    top: 1042px;
+    background: #8F542E;
+    border-radius: 8px;
+}
+
+#text-sobre-nos{    
+    width: 175px;
+    height: 33px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    color: #F0F0F0;
+
+}
