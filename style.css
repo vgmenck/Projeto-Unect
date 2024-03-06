@@ -315,3 +315,150 @@ nav{
     letter-spacing: 0.03em;
     color: #F0F0F0;
 }
+.background-cafeteria{
+    position: absolute;
+    width: 1440px;
+    height: 745px;
+    top: 1335px;
+    background-color: #80451F;
+}
+
+.texto-cafeteria{
+    position: absolute;
+    width: 224px;
+    height: 48px;
+    left: 608px;
+    top: 1464px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    color: #F0F0F0;
+}
+
+.detalhe-caf{
+    position: absolute;
+    width: 160px;
+    height: 0px;
+    left: 638px;
+    top: 1468px;
+    border: 3px;
+    color: #B2784A;
+}
+
+.entrar-em-contato{
+
+    position: absolute;
+    text-transform: uppercase;
+    width: 406px;
+    height: 48px;
+    left: 136px;
+    top: 2208px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    color: #1F0C00;
+
+}
+
+.retangulo2{
+    position: absolute;
+    width: 438px;
+    height: 28px;
+    left: 120px;
+    top: 2233px;
+    background: #FBC9A8;
+
+}
+
+.retangulo3{
+
+    position: absolute;
+    width: 1200px;
+    height: 711px;
+    left: 138px;
+    top: 2325px;
+
+    background: #8F542E;
+    border-radius: 8px;
+
+}
+
+.retangulo4{
+
+    position: absolute;
+    width: 690px;
+    height: 711px;
+    left: 648px;
+    top: 2325px;
+
+    background: #ebdacc;
+    border-radius: 0px 8px 8px 0px;
+
+}
+
+
+.icon-style{
+
+    flex-direction: row;
+    align-items: flex-start;
+    list-style: none;
+
+}
+
+#icon-position{
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    left: 168px;
+    top: 2608px;
+}
+
+#icon-instagram{
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    left: 168px;
+    top: 2608px;
+
+}
+
+footer{
+
+    position: absolute;
+    width: 1440px;
+    height: 75px;
+    top: 3164px;
+    background: #57290B;
+
+}
+
+.text-footer{
+
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    letter-spacing: 0.01em;
+
+    color: #FFDAB8;
+}
+
+#text-footer2{
+    position: absolute;
+    width: 213px;
+    height: 15.87px;
+    left: 120px;
+    top: calc(50% - 15.87px/2 + 1582.43px);
+
+}
