@@ -218,7 +218,7 @@ nav{
 }
 
 .retangulo{
-    position: absolute;
+    position: relative;
     width: 255px;
     height: 28px;
     left: 104px;
@@ -227,9 +227,9 @@ nav{
 }
 
 .sobre-nos{
-    position: absolute;
-    width: 222px;
-    height: 56px;
+    position: relative;
+    display: flex;
+    width: 100%;
     left: 120px;
     top: 715px;
     white-space: nowrap;
@@ -246,7 +246,8 @@ nav{
 }
 
 .texto-princ1{
-    position: absolute;
+    display: flex;
+    position: relative;
     width: 589px;
     height: 96px;
     left: 120px;
@@ -261,7 +262,8 @@ nav{
 }
 
 .texto-princ2{
-    position: absolute;
+    position: relative;
+    display: flex;
     width: 589px;
     height: 72px;
     left: 120px;
@@ -312,6 +314,7 @@ nav{
 #text-sobre-nos{    
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
+    white-space: nowrap;
     font-weight: 800;
     font-size: 18px;
     line-height: 33px;
@@ -484,7 +487,6 @@ footer{
 }
 
 .text-footer{ 
-    
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -495,7 +497,6 @@ footer{
     height: 15.87px;
     left: 250px;
     top: 3194px;
-
 }
 
 .texto-footer{
@@ -506,5 +507,4 @@ footer{
     font-size: 16px;
     line-height: 48px;
     color: #FFDAB8;
-    
 }
