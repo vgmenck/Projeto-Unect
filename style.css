@@ -232,6 +232,7 @@ nav{
     height: 56px;
     left: 120px;
     top: 715px;
+    white-space: nowrap;
 
     font-family: 'Cormorant Garamond';
     font-style: normal;
