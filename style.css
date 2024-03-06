@@ -11,6 +11,8 @@ body {
     padding: 6px;
 }
 
+
+
 .background-nav{
     position: absolute;
     width: 1440px;
@@ -391,6 +393,72 @@ nav{
 
 }
 
+.icon-style{
+    flex-direction: row;
+    align-items: flex-start;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.icon-position{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 47px;
+    height: 47px;
+    top: 40px;
+    left: 40px;
+}
+
+.text-icons{
+
+    width: 120px;
+    height: 25px;
+    white-space: nowrap;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #F0F0F0;
+
+}
+
+.line{
+    position: absolute;
+    width: 348px;
+    height: 3px;
+    left: 74px;
+    top: 230px;
+    
+    background: #B2784A;
+    border-radius: 3px;
+}
+
+.logo-branca{   
+
+    position: relative;
+    width: 127px;
+    height: 162.03px;
+    left: 300px;
+    top: 2600px;
+
+}
+
+.text-logo-branca{
+    
+    position: relative;
+    left: -60px;
+    white-space: nowrap;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 32px;
+    line-height: 39px;
+    color: #F0F0F0;
+}   
+
 .retangulo4{
 
     position: absolute;
@@ -404,35 +472,9 @@ nav{
 
 }
 
-
-.icon-style{
-
-    flex-direction: row;
-    align-items: flex-start;
-    list-style: none;
-
-}
-
-#icon-position{
-    position: absolute;
-    width: 47px;
-    height: 47px;
-    left: 168px;
-    top: 2608px;
-}
-
-#icon-instagram{
-    position: absolute;
-    width: 47px;
-    height: 47px;
-    left: 168px;
-    top: 2608px;
-
-}
-
 footer{
 
-    position: absolute;
+    position: relative;
     width: 1440px;
     height: 75px;
     top: 3164px;
@@ -440,25 +482,28 @@ footer{
 
 }
 
-.text-footer{
+.text-footer{ 
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    list-style: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 15.87px;
+    left: 250px;
+    top: 3194px;
 
+}
+
+.texto-footer{
 
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-
-    letter-spacing: 0.01em;
-
+    line-height: 48px;
     color: #FFDAB8;
-}
-
-#text-footer2{
-    position: absolute;
-    width: 213px;
-    height: 15.87px;
-    left: 120px;
-    top: calc(50% - 15.87px/2 + 1582.43px);
-
+    
 }
