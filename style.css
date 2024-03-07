@@ -11,8 +11,6 @@ body {
     padding: 6px;
 }
 
-
-
 .background-nav{
     position: absolute;
     width: 1440px;
@@ -217,11 +215,12 @@ nav{
     color: #F0F0F0;
 }
 
-/*.secao2{
+.secao2{
     position: relative;
     display: flex;
     top: 657px;
-}*/
+    background-color: #F5F3ED;
+}
 
 .retangulo{
     position: relative;
@@ -238,8 +237,9 @@ nav{
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    left: 120px;
-    top: 715px;
+    margin-left: 120px;
+    margin-right: 731px;
+    margin-top: 57px;
     white-space: nowrap;
 
     font-family: 'Cormorant Garamond';
@@ -260,8 +260,10 @@ nav{
     align-items: flex-start;
     width: 589px;
     height: 96px;
-    padding-left: 120px;
-    padding-top: 810px;
+    left: 120px;
+    margin-top: 39px;
+    margin-bottom: 429px;
+    /*padding-top: 810px;*/
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -272,12 +274,15 @@ nav{
 }
 
 .texto-princ2{
-    position: relative;
     display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
     width: 589px;
     height: 72px;
-    left: 120px;
-    top: 922px;
+    margin-left: 120px;
+    margin-top: 151px;
+    margin-bottom: 341px;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -291,8 +296,9 @@ nav{
     position: absolute;
     width: 352px;
     height: 340.41px;
-    left: 912px;
-    top: 771px;
+    margin-left: 912px;
+    margin-top: 113px;
+    z-index: 1;
 }
 
 
