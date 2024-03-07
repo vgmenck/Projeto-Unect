@@ -217,6 +217,12 @@ nav{
     color: #F0F0F0;
 }
 
+/*.secao2{
+    position: relative;
+    display: flex;
+    top: 657px;
+}*/
+
 .retangulo{
     position: relative;
     width: 255px;
@@ -229,6 +235,8 @@ nav{
 .sobre-nos{
     position: relative;
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     width: 100%;
     left: 120px;
     top: 715px;
@@ -248,10 +256,12 @@ nav{
 .texto-princ1{
     display: flex;
     position: relative;
+    flex-direction: column;
+    align-items: flex-start;
     width: 589px;
     height: 96px;
-    left: 120px;
-    top: 810px;
+    padding-left: 120px;
+    padding-top: 810px;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
