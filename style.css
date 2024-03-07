@@ -13,7 +13,7 @@ body {
 
 .background-nav{
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 100px;
     top: 0px;
     background: #57290B;
