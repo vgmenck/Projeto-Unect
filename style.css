@@ -189,8 +189,15 @@ nav{
     justify-content: flex-start;
 }
 
+.secao2{
+    position: relative;
+    display: flex;
+    top: 657px;
+    background-color: #F5F3ED;
+}
+
 .retangulo{
-    position: absolute;
+    position: relative;
     width: 255px;
     height: 28px;
     left: 104px;
@@ -273,6 +280,7 @@ nav{
 #text-sobre-nos{    
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
+    white-space: nowrap;
     font-weight: 800;
     font-size: 18px;
     line-height: 33px;
@@ -474,5 +482,4 @@ footer{
     font-size: 16px;
     line-height: 24px;
     color: #FFDAB8;
-    
 }
