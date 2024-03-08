@@ -328,12 +328,16 @@ nav{
 }
 
 .scroll-imagens{
+    position: relative;
+    left: 120px;
     width: 100%;
     overflow-x: scroll;
     white-space: nowrap;
 }
 
 .quadrado{
+    position: relative;
+    display: inline-block;
     width: 345px;
     height: 400px;
     background: #F0F0F0;
