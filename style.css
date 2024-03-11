@@ -345,6 +345,7 @@ nav{
 .scroll-imagens{
     position: relative;
     left: 120px;
+    width: calc(100% - 120px);
     width: 100%;
     overflow-x: scroll;
     white-space: nowrap;
@@ -355,6 +356,7 @@ nav{
     display: inline-block;
     width: 345px;
     height: 400px;
+    margin-right: 10px;
     background: #F0F0F0;
     border-radius: 8px;
 }
