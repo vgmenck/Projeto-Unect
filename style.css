@@ -11,6 +11,7 @@ body {
 }
 
 .background-nav{
+    z-index: 1;
     display: flex;
     width: 100%;
     height: 100px;
@@ -274,7 +275,7 @@ nav{
 }
 
 
-.btn-main-1{
+.btn-sobre-nos-main{
 
     display: flex;
     flex-direction: row;
@@ -282,12 +283,15 @@ nav{
     align-items: center;
     padding: 12px 32px;
     gap: 27px;
-    position: absolute;
     margin-top: 384px;
-    margin-left: 120px;
+    margin-left: -1140px;
+    width: 283px;
+    height: 57px;
     background: #8F542E;
     border-radius: 8px;
     border: none;
+    cursor: pointer;   
+    
 }
 
 #text-sobre-nos{    
@@ -302,7 +306,7 @@ nav{
 }
 
 .vetor-onda {
-    position: relative;
+
     background-image: url(img/Cafe\ onda.svg);
     width: 100%;
     height: 199.08px;
@@ -442,6 +446,16 @@ nav{
 
 }
 
+#icon-position-first{
+
+    display: flex;
+    align-items: center;
+    width: 47px;
+    height: 47px;
+    margin-top: 33px;
+    margin-left: 30px;
+}
+
 .icon-position{
     position: relative;
     display: flex;
@@ -482,7 +496,7 @@ nav{
 
     width: 127px;
     height: 162.03px;
-    margin-top: 160px;
+    margin-top: 103px;
     margin-left: 162px;
 
 }
@@ -496,6 +510,7 @@ nav{
     font-size: 32px;
     line-height: 39px;
     color: #F0F0F0;
+    margin-bottom: 40px;
 }   
 
 .retangulo4{
@@ -504,7 +519,7 @@ nav{
     width: 690px;
     height: 711px;
     margin-left: 510px;
-    margin-top: -679px;
+    margin-top: -662px;
     background: #ebdacc;
     border-radius: 0px 8px 8px 0px;
 
