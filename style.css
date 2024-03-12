@@ -218,7 +218,7 @@ nav{
 
 }
 
-.sobre-nos{
+#sobre-nos{
 
     width: 222px;
     height: 56px;
@@ -305,7 +305,7 @@ nav{
     color: #F0F0F0;
 }
 
-.vetor-onda {
+#vetor-onda {
 
     background-image: url(img/Cafe\ onda.svg);
     width: 100%;
@@ -325,7 +325,7 @@ nav{
 }
 
 
-.texto-cafeteria{
+#texto-cafeteria{
     height: 48px;
     margin-top: 129px;
     font-family: 'Cormorant Garamond';
@@ -390,7 +390,7 @@ nav{
     color: #1F0C00;
 }
 
-.entrar-em-contato{
+#entrar-em-contato{
 
     text-transform: uppercase;
     width: 406px;
@@ -611,26 +611,10 @@ input, button {
 }
 
 .btn-form{
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 32px;
-    gap: 20px;
-    margin-top: 42px;
-    margin-left: 42px;
-
-    width: 282px;
-    height: 57px;
     background: #8F542E;
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
-
 }
 
-.btn-form::after{
+.btn-form:hover{
     background: #B2784A;
 }
 
@@ -644,6 +628,22 @@ input, button {
     letter-spacing: 0.03em;
     color: #F0F0F0;
     white-space: nowrap;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 20px;
+    margin-top: 42px;
+    margin-left: 42px;
+
+    width: 282px;
+    height: 57px;
+
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
 }
 
 footer{
@@ -675,4 +675,14 @@ footer{
     font-size: 16px;
     line-height: 24px;
     color: #FFDAB8;
+}
+
+@media screen and (max-width: 1250px) {
+    .container__imagem-pessoa {
+        display: none;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
 }
