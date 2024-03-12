@@ -312,18 +312,17 @@ nav{
 
 .background-cafeteria{
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: 745px;
     margin-top: 223.59px;
+    align-items: center;
     background-color: #80451F;
 }
 
 
 .texto-cafeteria{
-
-    width: 224px;
     height: 48px;
-    margin-left: 608px;
     margin-top: 129px;
     font-family: 'Cormorant Garamond';
     font-style: normal;
@@ -336,10 +335,10 @@ nav{
 
 .detalhe-caf{
     width: 160px;
-    height: 20px;
-    margin-left: 608px;
-    border: 3px;
-    color: #B2784A;
+    height: 0px;
+    border: 2px solid #B2784A;
+    border-radius: 10px;
+    margin-bottom: 36px;
 }
 
 .scroll-imagens{
@@ -356,9 +355,35 @@ nav{
     display: inline-block;
     width: 345px;
     height: 400px;
+    padding: 16px;
     margin-right: 10px;
     background: #F0F0F0;
     border-radius: 8px;
+}
+
+.img{
+    width: 100%;
+}
+
+.titulo-scroll{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: capitalize;
+    margin-top: 8px;
+
+    color: #1F0C00;
+}
+
+.texto-scroll{
+    white-space: normal;
+    margin-top: 4px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #1F0C00;
 }
 
 .entrar-em-contato{
