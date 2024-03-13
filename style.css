@@ -132,12 +132,13 @@ nav{
 
 }
 
+
 .background-header{
     display: flex;
     background-image: url(img/BackGround.svg);
     width: 100%;
     height: 559px;
-
+    
 }
 
 .titulo{
@@ -146,7 +147,7 @@ nav{
     height: 228px;
     margin-top: 64px;
     margin-left: 119px;
-
+    
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -160,7 +161,7 @@ nav{
     height: 66px;
     margin-top: 16px;
     margin-left: 119px;
-
+    
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -178,7 +179,7 @@ nav{
     gap: 27px;
     margin-left: 119px;
     margin-top: 41px;
-
+    
     width: 283px;
     height: 57px;
     left: 120px;
@@ -209,17 +210,17 @@ nav{
 }
 
 .retangulo{
-
+    
     width: 255px;
     height: 28px;
     margin-top: 84px;
     margin-left: 104px;
     background: #FBC9A8;
-
+    
 }
 
 #sobre-nos{
-
+    
     width: 222px;
     height: 56px;
     margin-top: -27px;
@@ -236,7 +237,7 @@ nav{
 }
 
 .texto-princ1{
-
+    
     width: 589px;
     height: 96px;
     margin-top: 39px;
@@ -246,12 +247,12 @@ nav{
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-
+    
     color: #1F0C00;
 }
 
 .texto-princ2{
-
+    
     width: 589px;
     height: 72px;
     margin-top: 16px;
@@ -266,17 +267,17 @@ nav{
 }
 
 .xicara{
-
+    
     width: 352px;
     height: 340.41px;
     margin-top: 113px;
     margin-left: 553px;
-
+    
 }
 
 
 .btn-sobre-nos-main{
-
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -306,12 +307,12 @@ nav{
 }
 
 #vetor-onda {
-
+    
     background-image: url(img/Cafe\ onda.svg);
     width: 100%;
     height: 199.08px;
     margin-top: -880px;
-
+    
 }
 
 .background-cafeteria{
@@ -377,21 +378,21 @@ nav{
     line-height: 18px;
     text-transform: capitalize;
     margin-top: 8px;
-
+    
     color: #1F0C00;
 }
 
 .texto-scroll{
     white-space: normal;
     margin-top: 4px;
-
+    
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     color: #1F0C00;
 }
 
 #entrar-em-contato{
-
+    
     text-transform: uppercase;
     width: 406px;
     height: 48px;
@@ -403,7 +404,7 @@ nav{
     line-height: 48px;
     letter-spacing: 0.02em;
     color: #1F0C00;
-
+    
 }
 
 .box-entrar-em-contato{
@@ -419,23 +420,23 @@ nav{
 
 
 .retangulo2{
-
+    
     width: 438px;
     height: 28px;
     margin-left: 120px;
     margin-bottom: 64px;
     background: #FBC9A8;
-
+    
 }
 
 .retangulo3{
-
+    
     width: 1200px;
     height: 711px;
     margin-left: 138px;
     background: #8F542E;
     border-radius: 8px;
-
+    
 }
 
 .icon-style{
@@ -443,11 +444,11 @@ nav{
     align-items: flex-start;
     list-style: none;
     flex-wrap: wrap;
-
+    
 }
 
 #icon-position-first{
-
+    
     display: flex;
     align-items: center;
     width: 47px;
@@ -467,7 +468,7 @@ nav{
 }
 
 .text-icons{
-
+    
     width: 120px;
     height: 25px;
     white-space: nowrap;
@@ -476,13 +477,13 @@ nav{
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
-
+    
     color: #F0F0F0;
-
+    
 }
 
 .line{
-
+    
     width: 348px;
     height: 3px;
     margin-left: 36px;
@@ -493,12 +494,12 @@ nav{
 }
 
 .logo-branca{   
-
+    
     width: 127px;
     height: 162.03px;
     margin-top: 103px;
     margin-left: 162px;
-
+    
 }
 
 .text-logo-branca{
@@ -514,7 +515,7 @@ nav{
 }   
 
 .retangulo4{
-
+    
     display: flex;
     width: 690px;
     height: 711px;
@@ -522,7 +523,7 @@ nav{
     margin-top: -662px;
     background: #ebdacc;
     border-radius: 0px 8px 8px 0px;
-
+    
 }
 
 
@@ -536,7 +537,7 @@ input, button {
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-
+    
 }
 
 .grupo:before, .grupo:after {
@@ -555,7 +556,7 @@ input, button {
 }
 
 .campo label {
-
+    
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -565,18 +566,18 @@ input, button {
     text-transform: capitalize;
     color: #1F0C00;  
     margin-left: 41px;
-
+    
 }
 
 .campo input[type="text"], .campo input[type="email"]{
-
+    
     width: 609px;
     height: 70px;
     background: #F5F5F5;
     border: 1px solid #8F542E;
     border-radius: 8px;
     margin-left: 41px;
-
+    
 }
 
 .campo2 {
@@ -586,7 +587,7 @@ input, button {
 }
 
 .campo2 label {
-
+    
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -596,18 +597,18 @@ input, button {
     text-transform: capitalize;
     color: #1F0C00;  
     margin-left: 41px;
-
+    
 }
 
 .campo2 input[type="text"]{
-
+    
     width: 609px;
     height: 220px;
     background: #F5F5F5;
     border: 1px solid #8F542E;
     border-radius: 8px;
     margin-left: 41px;
-
+    
 }
 
 .btn-form{
@@ -628,7 +629,7 @@ input, button {
     letter-spacing: 0.03em;
     color: #F0F0F0;
     white-space: nowrap;
-
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -637,17 +638,17 @@ input, button {
     gap: 20px;
     margin-top: 42px;
     margin-left: 42px;
-
+    
     width: 282px;
     height: 57px;
-
+    
     border-radius: 8px;
     border: none;
     cursor: pointer;
 }
 
 footer{
-
+    
     display: flex;
     position: relative;
     flex-direction: column;
@@ -655,7 +656,7 @@ footer{
     width: 100%;
     height: 75px;
     background: #57290B;
-
+    
 }
 
 .box-text{
@@ -664,11 +665,11 @@ footer{
     height: 15.87px;
     margin-left: 120px;
     justify-content: space-between;
-
+    
 }
 
 .texto-footer{
-
+    
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -677,12 +678,33 @@ footer{
     color: #FFDAB8;
 }
 
-@media screen and (max-width: 1250px) {
-    .container__imagem-pessoa {
+@media (max-width: 768px) {
+    .background-nav {
+        height: 64px; /* Adjust height for smaller screens */
+    }
+
+    .logo {
+    left: 11.54%;
+    top: 25%;
+    }
+
+    .btn-SobreNos {
+        display: none; 
+    }
+
+    .btn-Cafeteria {
         display: none;
     }
 
-    h1 {
-        font-size: 50px;
+    .btn-Contato {
+        display: none;
+    }
+
+    .btn-Phone {
+        display: none;
+    }
+
+    .background-header {
+        
     }
 }
