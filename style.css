@@ -85,6 +85,23 @@ nav{
 
 }
 
+.text-logo{
+    width: 138px;
+    height: 22px;
+    margin-top: 60px;
+    margin-left: -190px;
+    white-space: nowrap;
+
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #F0F0F0;
+
+}
+
 
 .btn-Contato{
 
@@ -680,12 +697,20 @@ footer{
 
 @media (max-width: 768px) {
     .background-nav {
-        height: 64px; /* Adjust height for smaller screens */
+        width: 100%;
+        height: 64px; 
     }
 
     .logo {
-    left: 11.54%;
-    top: 25%;
+        text-align: left;
+        margin-left: 45px;
+        margin-top: 16px;
+        margin-bottom: 16.1;
+    }
+
+    .text-logo{
+        margin-top: 0px;
+        margin-left: 0px;
     }
 
     .btn-SobreNos {
@@ -704,21 +729,67 @@ footer{
         display: none;
     }
 
+    .detalhe1 {
+        display: none;
+    }
+
+    .detalhe2 {
+        display: none;
+    }
+
+    .detalhe3 {
+        display: none;
+    }
+
     .background-header {
+
         height: 241.34px;
+
     }
 
     .titulo {
         width: 342px;
         height: 96px;
-        top: 96px;
-        left: 24px;
+        margin-top: 32px;
+        margin-left: 24px;
 
         font-size: 28px;
         font-weight: 700;
         line-height: 32px;
         letter-spacing: 0.01em;
         text-align: left;
+
+    }
+    
+    .btn-cafeteria-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 24px;
+        gap: 8px;
+        margin-top: 32px;
+        margin-left: 24px;
+        
+        width: 217px;
+        height: 44px;
+        background: #8F542E;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    #text-venha-conhecer{
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #F0F0F0;
+        white-space: nowrap;
+
     }
 
     .sub-titulo {
@@ -726,12 +797,89 @@ footer{
     }
 
     .box-sobre-nos {
-        height: 586.71px;
+        height: 490px;
+        margin-left: 24px;
+        margin-top: 33.66px;
     }
 
+    .retangulo{
+
+        width: 159px;
+        height: 21px;
+        margin-top: 21px;
+        margin-left: 0px;
+
+    }
+
+    #sobre-nos{
+        
+        width: 133px;
+        height: 42px;
+        margin-top: -21px;
+        margin-left: 6.5px;
+        font-family: 'Cormorant Garamond';
+        font-style: normal;
+        font-size: 24px;
+        line-height: 42px;
+
+    }
+
+    .texto-princ1{
+    
+        width: 339px;
+        height: 182px;
+        margin-top: 32px;
+        margin-left: 1px;
+        letter-spacing: 0.02em;
+        line-height: 27px;
+    }
+
+    .texto-princ2{
+        
+        width: 339px;
+        height: 128px;
+        margin-top: 20px;
+        margin-left: 1px;
+        letter-spacing: 0.02em;
+        line-height: 27px;
+
+    }
+    
     .xicara {
         display: none;
     }
+
+    .btn-sobre-nos-main{
+    
+
+        padding: 10px 24px;
+        gap: 8px;
+        margin-top: 446px;
+        margin-left: -86.5px;
+        width: 194px;
+        height: 44px;
+    }
+    
+    #text-sobre-nos{    
+        font-family: 'Mulish';
+        font-style: normal;
+        white-space: nowrap;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+
+    }
+
+    #vetor-onda {
+
+        background-image: url(img/Cafe\ onda.svg);
+        width: 100%;
+        height: 109.95px;
+        margin-top: -880px;
+    
+    }
+
+
 
 
 }
