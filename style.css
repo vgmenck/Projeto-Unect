@@ -705,6 +705,33 @@ footer{
     }
 
     .background-header {
-        
+        height: 241.34px;
     }
+
+    .titulo {
+        width: 342px;
+        height: 96px;
+        top: 96px;
+        left: 24px;
+
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0.01em;
+        text-align: left;
+    }
+
+    .sub-titulo {
+        display: none;
+    }
+
+    .box-sobre-nos {
+        height: 586.71px;
+    }
+
+    .xicara {
+        display: none;
+    }
+
+
 }
