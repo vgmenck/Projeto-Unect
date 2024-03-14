@@ -1,30 +1,40 @@
-/*function btnEnviarMensagem(){
-   // let nome = getElementsById('name').value;
-    //let email = getElementsById('email').value;
-   // let mensagem = getElementsById('mensagem').value;
-
- //   console.log(`Nome: ${nome}, Email: ${email}, Mensagem: ${mensagem}`);
-
-}/** */
-
-
-
-
-colorButton = document.querySelector('btn-form');
-
-// Variable to track the current color state
-let original = true;
-
-// Function to toggle the color of the button
-function enviarMensagem() {
-    if (original) {
-        colorButton.style.backgroundColor = '#B2784A'; // Change to black
-    } else {
-        colorButton.style.backgroundColor = '#8F542E'; // Change to white
-    }
-    // Update the color state
-    original = !original;
+function venhaConhecer() {
+    let botão = document.getElementById('texto-cafeteria');
+    botão.scrollIntoView({ behavior: "auto" });
 }
 
-// Add a click event listener to the button
-colorButton.addEventListener('click', enviarMensagem);
+function faleConosco() {
+    let botão2 = document.getElementById('entrar-em-contato');
+    botão2.scrollIntoView({ behavior: "auto" });
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("text-button-form").addEventListener("click", function(event) {
+        event.preventDefault(); // Evitar o comportamento padrão do botão (recarregar a página)
+        enviarMensagem();
+    });
+});
+
+
+function enviarMensagem() {
+    let nome = document.getElementById("nome").value;
+    let email = document.getElementById("email").value;
+    let mensagem = document.getElementById("mensagem").value;
+    
+    
+    console.log(`Nome: ${nome}`);
+    console.log(`Email: ${email}`);
+    console.log(`Mensagem: ${mensagem}`);
+
+    limpar();
+
+}
+
+function limpar() {
+    document.getElementById("nome").innerHTML = '';
+    document.getElementById("email").innerHTML = '';
+    document.getElementById("mensagem").innerHTML = '';
+
+}
+
+

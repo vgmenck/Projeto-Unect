@@ -30,7 +30,7 @@
         <div>
             <h1 class="titulo">Leia acompanhado de <br> uma culinária de qualidade</h1>
             <h2 class="sub-titulo">Aonde a paixão por livros e o amor por café sempre  tem lugar á mesa.</h2>
-            <button class="btn-cafeteria-header" id="text-venha-conhecer";>Venha conhecer<img src="img/Union.svg"></button>
+            <button onclick="venhaConhecer()" class="btn-cafeteria-header" id="text-venha-conhecer";>Venha conhecer<img src="img/Union.svg"></button>
         </div>    
     </header>
 
@@ -42,7 +42,7 @@
                 <p class="texto-princ2">O sonho de Carolina era criar um espaço aonde pudesse unir seu amor por culinária e a enorme paixão por literatura, venha saber mais dessa jornada:</p>
             </div>
             <div class="xicara"><img src="img/xicaras.svg" alt="xicaras de café"></div>
-            <button class="btn-sobre-nos-main" id="text-sobre-nos">Fale conosco<img src="img/Union.svg"></button>
+            <button onclick="faleConosco()" class="btn-sobre-nos-main" id="text-sobre-nos">Fale conosco<img src="img/Union.svg"></button>
         </section>
 
         <section class="background-cafeteria">
@@ -96,22 +96,22 @@
                     <li class="text-logo-branca">Palavras Cafeinadas</li>
                 </ul> 
                 <div class="retangulo4">
-                    <form>
-                            <div class="campo">
+                    <form autocomplete="on">
+                            <div class="campo" >
                                 <label for="nome"><strong>Nome</strong></label>
                                 <input class="nome-box" type="text" name="nome" id="nome" required>
                             </div>
     
-                            <div class="campo">
+                            <div class="campo" >
                                 <label for="email"><strong>E-Mail</strong></label>
                                 <input type="email" name="email" id="email" required>
                             </div>
 
-                        <div class="campo2">
+                        <div class="campo2" >
                             <label for="mensagem"><strong>Mensagem</strong></label>
                             <input type="text" name="mensagem" id="mensagem" required>
                         </div>
-                        <button class="btn-form" id="text-button-form";>Enviar Mensagem<img src="img/Union.svg"></button>
+                        <button onclick="enviarMensagem()" class="btn-form" id="text-button-form";>Enviar Mensagem<img src="img/Union.svg"></button>
                     </form>
                 </div>
             </div>
@@ -124,6 +124,8 @@
             <p class="texto-footer">Todos os direitos reservados ©</p>
         </div>
     </footer>
+
+    <script type="text/javascript" src="script.js"></script>
     
 </body>
 </html>

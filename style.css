@@ -630,6 +630,22 @@ input, button {
 
 .btn-form{
     background: #8F542E;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 20px;
+    margin-top: 42px;
+    margin-left: 42px;
+    
+    width: 282px;
+    height: 57px;
+    
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    
 }
 
 .btn-form:hover{
@@ -647,21 +663,6 @@ input, button {
     color: #F0F0F0;
     white-space: nowrap;
     
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 32px;
-    gap: 20px;
-    margin-top: 42px;
-    margin-left: 42px;
-    
-    width: 282px;
-    height: 57px;
-    
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
 }
 
 footer{
@@ -870,16 +871,27 @@ footer{
 
     }
 
-    #vetor-onda {
+    #texto-cafeteria{
+        width: 134px;
+        height: 42px;
+        margin-top: 119px;
+        margin-left: -370px;
+        font-size: 24px;
+        line-height: 42px;
+        letter-spacing: 0.02em;
+        color: #F0F0F0;
 
-        background-image: url(img/Cafe\ onda.svg);
-        width: 100%;
-        height: 109.95px;
-        margin-top: -880px;
-    
     }
 
-
+    .detalhe-caf{
+        width: 160px;
+        height: 0px;
+        border: 2px solid #B2784A;
+        border-radius: 10px;
+        margin-bottom: 36px;
+        margin-left: -355px;
+    }
+    
 
 
 }
