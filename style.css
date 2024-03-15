@@ -154,7 +154,8 @@ nav{
     background-image: url(img/BackGround.svg);
     width: 100%;
     height: 559px;
-    
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #espaco{
@@ -227,10 +228,12 @@ nav{
     display: flex;
     width: 100%;
     height: 396.41px;
+    justify-content: flex-start;
+}
+
+.espacamento-sobre-nos{
     margin-left: 104px;
     margin-top: 57px;
-    margin-bottom: 88.59px;
-    justify-content: flex-start;
 }
 
 .retangulo{
@@ -247,7 +250,7 @@ nav{
     
     width: 222px;
     height: 56px;
-    margin-top: -27px;
+    margin-top: -55px;
     margin-left: 8px;
     white-space: nowrap;
     font-family: 'Cormorant Garamond';
@@ -294,8 +297,8 @@ nav{
     
     width: 352px;
     height: 340.41px;
-    margin-top: 56px;
-    margin-left: 553px;
+    margin-top: -223px;
+    margin-left: 808px;
     
 }
 
@@ -308,8 +311,8 @@ nav{
     align-items: center;
     padding: 12px 32px;
     gap: 27px;
-    margin-top: 327px;
-    margin-left: -1140px;
+    margin-top: -69.41px;
+    margin-left: 0px;
     width: 283px;
     height: 57px;
     background: #8F542E;
@@ -336,6 +339,8 @@ nav{
     width: 100%;
     height: 199.08px;
     margin-top: -880px;
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
@@ -371,11 +376,10 @@ nav{
 
 .scroll-imagens{
     position: relative;
-    left: 120px;
-    width: calc(100% - 120px);
     width: 100%;
     overflow-x: scroll;
     white-space: nowrap;
+    padding-left: 120px;
 }
 
 .quadrado{
@@ -683,10 +687,11 @@ footer{
 
 .box-text{
     display: flex;
-    width: 1200px;
+    width: 100%;
     height: 15.87px;
-    margin-left: 120px;
     justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
     
 }
 
