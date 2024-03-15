@@ -913,5 +913,21 @@ footer{
         letter-spacing: 0.02em;
     }
 
+    .line {
+        display: none;
+    }
+
+    .retangulo3 {
+        display: none;
+    }
+
+    .icon-style {
+        display: none;
+    }
+
+    .retangulo4 {
+        margin-left: 24px;
+        margin-right: 25px;
+    }
 }
 
