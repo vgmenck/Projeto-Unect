@@ -937,6 +937,22 @@ footer{
     
     }
 
+    .line {
+        display: none;
+    }
+
+    .retangulo3 {
+        display: none;
+    }
+
+    .icon-style {
+        display: none;
+    }
+
+    .retangulo4 {
+        margin-left: 24px;
+        margin-right: 25px;
+    }
     .texto-scroll{
         white-space: normal;
         width: 191px;
