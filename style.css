@@ -12,6 +12,7 @@ body {
 
 .background-nav{
     z-index: 1;
+    position: fixed;
     display: flex;
     width: 100%;
     height: 100px;
@@ -21,7 +22,6 @@ body {
 nav{
     display: flex;
     align-items: center;
-
 }
 
 .nav-itens {
@@ -149,7 +149,6 @@ nav{
 
 }
 
-
 .background-header{
     display: flex;
     background-image: url(img/BackGround.svg);
@@ -158,12 +157,17 @@ nav{
     
 }
 
+#espaco{
+    padding-top: 100px;
+}
+
 .titulo{
     display: flex;
     width: 589px;
     height: 228px;
-    margin-top: 64px;
+    margin-top: 63px;
     margin-left: 119px;
+    
     
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -222,7 +226,10 @@ nav{
 .box-sobre-nos{
     display: flex;
     width: 100%;
-    height: 542px;
+    height: 396.41px;
+    margin-left: 104px;
+    margin-top: 57px;
+    margin-bottom: 88.59px;
     justify-content: flex-start;
 }
 
@@ -230,8 +237,8 @@ nav{
     
     width: 255px;
     height: 28px;
-    margin-top: 84px;
-    margin-left: 104px;
+    margin-top: 27px;
+    margin-left: 0px;
     background: #FBC9A8;
     
 }
@@ -287,7 +294,7 @@ nav{
     
     width: 352px;
     height: 340.41px;
-    margin-top: 113px;
+    margin-top: 56px;
     margin-left: 553px;
     
 }
@@ -301,7 +308,7 @@ nav{
     align-items: center;
     padding: 12px 32px;
     gap: 27px;
-    margin-top: 384px;
+    margin-top: 327px;
     margin-left: -1140px;
     width: 283px;
     height: 57px;
@@ -341,7 +348,6 @@ nav{
     align-items: center;
     background-color: #80451F;
 }
-
 
 #texto-cafeteria{
     height: 48px;
@@ -433,8 +439,6 @@ nav{
     justify-content: flex-start;
     margin-bottom: 128px;
 }
-
-
 
 .retangulo2{
     
@@ -700,7 +704,7 @@ footer{
     .background-nav {
         max-width: 100%;
         height: 64px;
-         
+        position: relative;    
     }
 
     .logo {
@@ -740,6 +744,10 @@ footer{
     }
 
     .detalhe3 {
+        display: none;
+    }
+
+    #espaco{
         display: none;
     }
 
@@ -874,9 +882,15 @@ footer{
 
     }
    
-    .background-cafeteria {
-        width: 100%;
-        align-items: center;
+    #vetor-onda {
+        background-image: url(img/onda\ responsiva.svg);
+        height: 109.95px;
+        margin-top: -589px;
+    }
+
+    .background-cafeteria{
+        height: 534px;
+        margin-top: 119px;
     }
 
     #texto-cafeteria{
@@ -885,8 +899,6 @@ footer{
         font-size: 24px;
         line-height: 42px;
         letter-spacing: 0.02em;
-        color: #F0F0F0;
-
     }
 
     .detalhe-caf{
@@ -899,18 +911,25 @@ footer{
     
     .scroll-imagens {
         left: 24px;
+    }
+
+    .quadrado{
+        position: relative;
+        display: inline-block;
+        width: 217px;
+        height: 253px;
+        padding: 16px;
+        margin-right: 10px;
 
     }
 
-    #entrar-em-contato {
-        height: 42px;
-        left: 39px;
-        top: 1545px;
+    .titulo-scroll{
 
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 42px;
+        width: 197px;
+        height: 27px;
+        line-height: 27px;
         letter-spacing: 0.02em;
+    
     }
 
     .line {
@@ -929,5 +948,43 @@ footer{
         margin-left: 24px;
         margin-right: 25px;
     }
+    .texto-scroll{
+        white-space: normal;
+        width: 191px;
+        height: 18px;
+        margin-top: 4px;
+        
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.02em;
+        color: #1F0C00;
+    }
+
+    .box-entrar-em-contato{
+        height: 616px;
+        margin-top: 540px;
+        margin-bottom: 48px;
+    
+    }
+
+    .retangulo2{
+    
+        width: 438px;
+        height: 28px;
+        margin-left: 120px;
+        margin-bottom: 64px;
+        background: #FBC9A8;
+        
+    }
+
+    .retangulo3{
+        
+        display: none;
+        
+    }
+       
+
+
 }
 
