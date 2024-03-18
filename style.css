@@ -22,37 +22,44 @@ body {
 nav{
     display: flex;
     align-items: center;
+    list-style: none;
+    justify-content: space-between;
 }
 
 .nav-itens {
-    
-    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+}
 
+.btn-text{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #F0F0F0;
+    white-space: nowrap;
+    margin-left: 10px
 }
 
 .btn-SobreNos{
-
     display: flex;
     width: 71px;
     height: 27px;
     margin-left: 109px;
     text-decoration: none;
     cursor: pointer;
-    
 }
 
 .detalhe1{
-
     width: 43px;
     height: 2px;
     background: #B2784A;
     border-radius: 3px;
     margin-top: 27px;
     margin-left: -45px;
-    
 }
 
 .btn-Cafeteria{
@@ -74,7 +81,6 @@ nav{
     border-radius: 3px;
     margin-top: 27px;
     margin-left: -44px;
-    
 }
 
 .logo {
@@ -136,18 +142,6 @@ nav{
    
 }
 
-.btn-text{
-    
-    font-family: 'Cormorant Garamond';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;
-    color: #F0F0F0;
-    white-space: nowrap;
-    margin-left: 10px
-
-}
 
 .background-header{
     display: flex;
@@ -708,10 +702,195 @@ footer{
     color: #FFDAB8;
 }
 
-@media (max-width: 780px){
 
+@media (max-width: 2245px) {
+    .btn-text{font-size: 16px;}
+
+    .btn-SobreNos{margin-left:109px;}
+
+    .btn-Cafeteria{margin-left: 125px;}
+
+    .logo{margin-left: 290px;}
+
+    .text-logo{margin-left: -190px;}
+
+    .btn-Contato{margin-left: 190px;}
 }
 
+@media (max-width: 2115px) {
+    .btn-text{font-size: 16px;}
+
+    .btn-SobreNos{margin-left:99px;}
+
+    .btn-Cafeteria{margin-left: 115px;}
+
+    .logo{margin-left: 280px;}
+
+    .text-logo{margin-left: -180px;}
+
+    .btn-Contato{margin-left: 180px;}
+}
+
+@media (max-width: 2000px) {
+    .btn-text{font-size: 16px;}
+
+    .btn-SobreNos{margin-left:89px;}
+
+    .btn-Cafeteria{margin-left: 105px;}
+
+    .logo{margin-left: 270px;}
+
+    .text-logo{margin-left: -170px;}
+
+    .btn-Contato{margin-left: 170px;}
+}
+
+
+@media (max-width: 1868px) {
+    .btn-text{font-size: 16px;}
+
+    .btn-SobreNos{margin-left:79px;}
+
+    .btn-Cafeteria{margin-left: 95px;}
+
+    .logo{margin-left: 260px;}
+
+    .text-logo{margin-left: -160px;}
+
+    .btn-Contato{margin-left: 160px;}
+}
+
+@media (max-width: 1773px) {
+    .btn-text{font-size: 16px;}
+
+    .btn-SobreNos{margin-left:69px;}
+
+    .btn-Cafeteria{margin-left: 85px;}
+
+    .logo{margin-left: 250px;}
+
+    .text-logo{margin-left: -150px;}
+
+    .btn-Contato{margin-left: 140px;}
+}
+
+@media (max-width: 1678px) {
+    .btn-text{font-size: 15px;}
+
+    .btn-SobreNos{margin-left:59px;}
+
+    .btn-Cafeteria{margin-left: 75px;}
+
+    .logo{margin-left: 240px;}
+
+    .text-logo{margin-left: -140px;}
+
+    .btn-Contato{margin-left: 140px;}
+}
+
+@media (max-width: 1572px) {
+    .btn-text{font-size: 15px;}
+
+    .btn-SobreNos{margin-left: 49px;}
+
+    .btn-Cafeteria{margin-left: 65px;}
+
+    .logo{margin-left: 230px;}
+
+    .text-logo{margin-left: -130px;}
+
+    .btn-Contato{margin-left: 130px;}
+}
+
+@media (max-width: 1472px) {
+    .btn-text{font-size: 15px;}
+
+    .btn-SobreNos{margin-left:39px;}
+
+    .btn-Cafeteria{margin-left: 55px;}
+
+    .logo{margin-left: 220px;}
+
+    .text-logo{margin-left: -120px;}
+
+    .btn-Contato{margin-left: 120px;}
+}
+
+@media (max-width: 1372px) {
+    .btn-text{font-size: 15px;}
+
+    .btn-SobreNos{margin-left:29px;}
+
+    .btn-Cafeteria{margin-left: 45px;}
+
+    .logo{margin-left: 210px;}
+
+    .text-logo{margin-left: -110px;}
+
+    .btn-Contato{margin-left: 110px;}
+}
+
+@media (max-width: 1272px) {
+    .btn-text{font-size: 15px;}
+
+    .btn-SobreNos{margin-left:19px;}
+
+    .btn-Cafeteria{margin-left: 35px;}
+
+    .logo{margin-left: 200px;}
+
+    .text-logo{margin-left: -100px;}
+
+    .btn-Contato{margin-left: 100px;}
+}
+
+@media (max-width: 1272px) {
+    .btn-text{font-size: 14px;}
+
+    .btn-SobreNos{margin-left:5px;}
+
+    .btn-Cafeteria{margin-left: 25px;}
+
+    .logo{margin-left: 190px;}
+
+    .text-logo{margin-left: -90px;}
+
+    .btn-Contato{margin-left: 90px;}
+}
+
+/*@media (max-width: 1440px){
+    .background-nav{
+        width: 100%;
+    }
+    .btn-text{font-size: 16px;}
+
+    .btn-SobreNos{margin-left:99px;}
+
+    .btn-Cafeteria{margin-left: 115px;}
+
+    .logo{margin-left: 280px;}
+
+    .text-logo{margin-left: -180px;}
+
+    .btn-Contato{margin-left: 180px;}
+}*/
+
+@media (max-width: 768px){
+    .background-nav{
+        width: 100%;
+    }
+    .btn-text{font-size: 14px;}
+
+    .btn-SobreNos{margin-left:5px;}
+
+    .btn-Cafeteria{margin-left: 25px;}
+
+    .logo{margin-left: 190px;}
+
+    .text-logo{margin-left: -90px;}
+
+    .btn-Contato{margin-left: 90px;}
+}
 
 @media (max-width: 480px) {
     .background-nav {
@@ -959,11 +1138,6 @@ footer{
     .icon-style {
         display: none;
     }
-
-    .retangulo4 {
-        margin-left: 24px;
-        margin-right: 25px;
-    }
     
     .texto-scroll{
         white-space: nowrap;
@@ -978,34 +1152,45 @@ footer{
         letter-spacing: 0.02em;
         color: #1F0C00;
     }
-
+    
     .box-entrar-em-contato{
         height: 616px;
         margin-top: 540px;
         margin-bottom: 48px;
-    
+        
     }
-
+    
     .retangulo2{
         width: 274px;
         height: 21px;
         margin-left: 24px;        
     }
-
+    
     .retangulo3{
         
         display: none;
         
     }
-       
+    
     #entrar-em-contato {
         height: 42px;
         top: 1545px;
-
+        
         font-size: 24px;
         line-height: 42px;
         letter-spacing: 0.02em;
     }
-
+    
+    .retangulo4 {
+        margin-left: 24px;
+        margin-right: 25px;
+    }
+    
+    .campo {
+        width: 293px;
+    }
+    
+    .campo2 {
+        width: 293px;
+    }
 }
-
