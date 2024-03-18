@@ -16,14 +16,12 @@ body {
     display: flex;
     width: 100%;
     height: 100px;
+    align-items: center;
     background: #57290B;
 }
 
-nav{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    justify-content: space-between;
+.nav-bar {
+    width: 100%;
 }
 
 .nav-itens {
@@ -31,6 +29,8 @@ nav{
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-text{
@@ -46,9 +46,7 @@ nav{
 
 .btn-SobreNos{
     display: flex;
-    width: 71px;
     height: 27px;
-    margin-left: 109px;
     text-decoration: none;
     cursor: pointer;
 }
@@ -59,45 +57,36 @@ nav{
     background: #B2784A;
     border-radius: 3px;
     margin-top: 27px;
-    margin-left: -45px;
+    margin-left: -60px;
 }
 
 .btn-Cafeteria{
-
     display: flex;
-    width: 66px;
     height: 27px;
     margin-left: 125px;
     text-decoration: none;
     cursor: pointer;
-    
 }
 
 .detalhe2{
-
     width: 43px;
     height: 2px;
     background: #B2784A;
     border-radius: 3px;
     margin-top: 27px;
-    margin-left: -44px;
+    margin-left: -57px;
 }
 
 .logo {
-
-    width: 138px;
+    width: 150px;
     height: 85px;
     margin-left: 290px;
-
 }
 
 .text-logo{
-    width: 138px;
     height: 22px;
-    margin-top: 60px;
-    margin-left: -190px;
+    margin-top: 10px;
     white-space: nowrap;
-
     font-family: 'Cormorant Garamond';
     font-style: normal;
     font-weight: 400;
@@ -105,41 +94,37 @@ nav{
     line-height: 22px;
 
     color: #F0F0F0;
-
 }
 
+.logo-space{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 .btn-Contato{
-
     display: flex;
-    width: 60px;
     height: 27px;
     margin-left: 190px;
     text-decoration: none;
     cursor: pointer;
-
 }
 
 .detalhe3{
-
     width: 43px;
     height: 2px;
     background: #B2784A;
     border-radius: 3px;
     margin-top: 27px;
-    margin-left: -40px;
-    
+    margin-left: -52px;
 }
 
 
 .btn-Phone{
- 
     display: flex;
     align-items: center;
-    width: 118px;
     height: 25.86px;
     margin-left: 108px;
-   
 }
 
 
@@ -222,26 +207,23 @@ nav{
     display: flex;
     width: 100%;
     height: 396.41px;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .espacamento-sobre-nos{
-    margin-left: 104px;
     margin-top: 57px;
+    display: flex;
 }
 
 .retangulo{
-    
     width: 255px;
     height: 28px;
     margin-top: 27px;
     margin-left: 0px;
     background: #FBC9A8;
-    
 }
 
 #sobre-nos{
-    
     width: 222px;
     height: 56px;
     margin-top: -55px;
@@ -258,7 +240,6 @@ nav{
 }
 
 .texto-princ1{
-    
     width: 589px;
     height: 96px;
     margin-top: 39px;
@@ -273,7 +254,6 @@ nav{
 }
 
 .texto-princ2{
-    
     width: 589px;
     height: 72px;
     margin-top: 16px;
@@ -288,16 +268,10 @@ nav{
 }
 
 .xicara{
-    
-    width: 352px;
-    height: 340.41px;
-    margin-top: -328px;
-    margin-left: 792px;
-    
+    margin-left: 50px;
 }
 
 .btn-sobre-nos-main{
-    
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -311,8 +285,7 @@ nav{
     background: #8F542E;
     border-radius: 8px;
     border: none;
-    cursor: pointer;   
-    
+    cursor: pointer;    
 }
 
 #text-sobre-nos{    
@@ -331,14 +304,12 @@ nav{
 }
 
 #vetor-onda {
-    
     background-image: url(img/Cafe\ onda.svg);
     width: 100%;
-    height: 199.08px;
+    height: 260px;
     margin-top: -135px;
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 .background-cafeteria{
@@ -433,11 +404,10 @@ nav{
 
 .box-entrar-em-contato{
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: 828px;
     margin-top: 128px;
-    flex-wrap: wrap;
-    justify-content: flex-start;
     margin-bottom: 128px;
 }
 
@@ -455,11 +425,14 @@ nav{
     
     width: 510px;
     height: 711px;
-    margin-left: -420px;
-    margin-top: 64px;
     background: #8F542E;
+    box-shadow: -4px 7px 29px 6px #1F0C0033;
     border-radius: 8px 0px 0px 8px;
-    
+}
+
+.box{
+    display: flex;
+    justify-content: center;
 }
 
 .icon-style{
@@ -467,11 +440,9 @@ nav{
     align-items: flex-start;
     list-style: none;
     flex-wrap: wrap;
-    
 }
 
 #icon-position-first{
-    
     display: flex;
     align-items: center;
     width: 47px;
@@ -491,7 +462,6 @@ nav{
 }
 
 .text-icons{
-    
     width: 120px;
     height: 25px;
     white-space: nowrap;
@@ -502,11 +472,9 @@ nav{
     line-height: 25px;
     
     color: #F0F0F0;
-    
 }
 
 .line{
-    
     width: 348px;
     height: 3px;
     margin-left: 36px;
@@ -517,12 +485,10 @@ nav{
 }
 
 .logo-branca{   
-    
     width: 127px;
     height: 162.03px;
     margin-top: 103px;
     margin-left: 162px;
-    
 }
 
 .text-logo-branca{
@@ -538,19 +504,16 @@ nav{
 }   
 
 .retangulo4{
-    
     display: flex;
     width: 690px;
     height: 711px;
-    margin-top: 64px;
     background: #ebdacc;
     border-radius: 0px 8px 8px 0px;
-    
+    box-shadow: -4px 7px 29px 6px #1F0C0033;
 }
 
 
 input, button {
-    
     margin-left: 20px;
     color: #000000;
     display: block;
@@ -559,7 +522,6 @@ input, button {
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    
 }
 
 .grupo:before, .grupo:after {
@@ -578,7 +540,6 @@ input, button {
 }
 
 .campo label {
-    
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -588,18 +549,15 @@ input, button {
     text-transform: capitalize;
     color: #1F0C00;  
     margin-left: 41px;
-    
 }
 
 .campo input[type="text"], .campo input[type="email"]{
-    
     width: 609px;
     height: 70px;
     background: #F5F5F5;
     border: 1px solid #8F542E;
     border-radius: 8px;
     margin-left: 41px;
-    
 }
 
 .campo2 {
@@ -609,7 +567,6 @@ input, button {
 }
 
 .campo2 label {
-    
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -619,18 +576,15 @@ input, button {
     text-transform: capitalize;
     color: #1F0C00;  
     margin-left: 41px;
-    
 }
 
 .campo2 input[type="text"]{
-    
     width: 609px;
     height: 220px;
     background: #F5F5F5;
     border: 1px solid #8F542E;
     border-radius: 8px;
     margin-left: 41px;
-    
 }
 
 .btn-form{
@@ -650,7 +604,6 @@ input, button {
     border-radius: 8px;
     border: none;
     cursor: pointer;
-    
 }
 
 .btn-form:hover{
@@ -667,11 +620,9 @@ input, button {
     letter-spacing: 0.03em;
     color: #F0F0F0;
     white-space: nowrap;
-    
 }
 
 footer{
-    
     display: flex;
     position: relative;
     flex-direction: column;
@@ -679,7 +630,6 @@ footer{
     width: 100%;
     height: 75px;
     background: #57290B;
-    
 }
 
 .box-text{
@@ -689,11 +639,9 @@ footer{
     justify-content: space-between;
     padding-left: 120px;
     padding-right: 120px;
-    
 }
 
 .texto-footer{
-    
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -702,196 +650,67 @@ footer{
     color: #FFDAB8;
 }
 
-
-@media (max-width: 2245px) {
-    .btn-text{font-size: 16px;}
-
-    .btn-SobreNos{margin-left:109px;}
-
-    .btn-Cafeteria{margin-left: 125px;}
-
-    .logo{margin-left: 290px;}
-
-    .text-logo{margin-left: -190px;}
-
-    .btn-Contato{margin-left: 190px;}
-}
-
-@media (max-width: 2115px) {
-    .btn-text{font-size: 16px;}
-
-    .btn-SobreNos{margin-left:99px;}
-
-    .btn-Cafeteria{margin-left: 115px;}
-
-    .logo{margin-left: 280px;}
-
-    .text-logo{margin-left: -180px;}
-
-    .btn-Contato{margin-left: 180px;}
-}
-
-@media (max-width: 2000px) {
-    .btn-text{font-size: 16px;}
-
-    .btn-SobreNos{margin-left:89px;}
-
-    .btn-Cafeteria{margin-left: 105px;}
-
-    .logo{margin-left: 270px;}
-
-    .text-logo{margin-left: -170px;}
-
-    .btn-Contato{margin-left: 170px;}
-}
-
-
-@media (max-width: 1868px) {
-    .btn-text{font-size: 16px;}
-
-    .btn-SobreNos{margin-left:79px;}
-
-    .btn-Cafeteria{margin-left: 95px;}
-
-    .logo{margin-left: 260px;}
-
-    .text-logo{margin-left: -160px;}
-
-    .btn-Contato{margin-left: 160px;}
-}
-
-@media (max-width: 1773px) {
-    .btn-text{font-size: 16px;}
-
-    .btn-SobreNos{margin-left:69px;}
-
-    .btn-Cafeteria{margin-left: 85px;}
-
-    .logo{margin-left: 250px;}
-
-    .text-logo{margin-left: -150px;}
-
-    .btn-Contato{margin-left: 140px;}
-}
-
-@media (max-width: 1678px) {
-    .btn-text{font-size: 15px;}
-
-    .btn-SobreNos{margin-left:59px;}
-
-    .btn-Cafeteria{margin-left: 75px;}
-
-    .logo{margin-left: 240px;}
-
-    .text-logo{margin-left: -140px;}
-
-    .btn-Contato{margin-left: 140px;}
-}
-
-@media (max-width: 1572px) {
-    .btn-text{font-size: 15px;}
-
-    .btn-SobreNos{margin-left: 49px;}
-
-    .btn-Cafeteria{margin-left: 65px;}
-
-    .logo{margin-left: 230px;}
-
-    .text-logo{margin-left: -130px;}
-
-    .btn-Contato{margin-left: 130px;}
-}
-
-@media (max-width: 1472px) {
-    .btn-text{font-size: 15px;}
-
-    .btn-SobreNos{margin-left:39px;}
-
-    .btn-Cafeteria{margin-left: 55px;}
-
-    .logo{margin-left: 220px;}
-
-    .text-logo{margin-left: -120px;}
-
-    .btn-Contato{margin-left: 120px;}
-}
-
-@media (max-width: 1372px) {
-    .btn-text{font-size: 15px;}
-
-    .btn-SobreNos{margin-left:29px;}
-
-    .btn-Cafeteria{margin-left: 45px;}
-
-    .logo{margin-left: 210px;}
-
-    .text-logo{margin-left: -110px;}
-
-    .btn-Contato{margin-left: 110px;}
-}
-
-@media (max-width: 1272px) {
-    .btn-text{font-size: 15px;}
-
-    .btn-SobreNos{margin-left:19px;}
-
-    .btn-Cafeteria{margin-left: 35px;}
-
-    .logo{margin-left: 200px;}
-
-    .text-logo{margin-left: -100px;}
-
-    .btn-Contato{margin-left: 100px;}
-}
-
-@media (max-width: 1272px) {
-    .btn-text{font-size: 14px;}
-
-    .btn-SobreNos{margin-left:5px;}
-
-    .btn-Cafeteria{margin-left: 25px;}
-
-    .logo{margin-left: 190px;}
-
-    .text-logo{margin-left: -90px;}
-
-    .btn-Contato{margin-left: 90px;}
-}
-
-/*@media (max-width: 1440px){
-    .background-nav{
-        width: 100%;
+@media (max-width: 1260px){
+    .btn-Contato{
+        margin-left: 95px;
     }
-    .btn-text{font-size: 16px;}
-
-    .btn-SobreNos{margin-left:99px;}
-
-    .btn-Cafeteria{margin-left: 115px;}
-
-    .logo{margin-left: 280px;}
-
-    .text-logo{margin-left: -180px;}
-
-    .btn-Contato{margin-left: 180px;}
-}*/
-
-@media (max-width: 768px){
-    .background-nav{
-        width: 100%;
+    .logo {
+        margin-left: 145px;
     }
-    .btn-text{font-size: 14px;}
-
-    .btn-SobreNos{margin-left:5px;}
-
-    .btn-Cafeteria{margin-left: 25px;}
-
-    .logo{margin-left: 190px;}
-
-    .text-logo{margin-left: -90px;}
-
-    .btn-Contato{margin-left: 90px;}
+    .xicara img{
+        width: 240px;
+        height: 240px;
+    }
+    .retangulo3{
+        width: 410px;
+    }
+    .retangulo4{
+        width: 590px;
+    }
+    .campo input[type="text"], .campo input[type="email"]{
+        width: 509px;
+    }
+    .campo2 input[type="text"]{
+        width: 509px;
+    }
 }
 
+@media (max-width: 1020px){
+    .btn-Contato{
+        margin-left: 45px;
+    }
+    .logo {
+        margin-left: 95px;
+    }
+    .xicara img{
+        width: 220px;
+        height: 220px;
+    }
+    .texto-princ1{
+        width: 489px;
+        font-size: 16px;
+    }
+    .texto-princ2{
+        width: 489px;
+        font-size: 16px;
+    }
+    .retangulo3{
+        width: 260px;
+    }
+    .retangulo4{
+        width: 440px;
+    }
+    .campo input[type="text"], .campo input[type="email"]{
+        width: 359px;
+    }
+    .campo2 input[type="text"]{
+        width: 359px;
+    }
+}
+
+@media (max-width: 860px){
+
+}
 @media (max-width: 480px) {
     .background-nav {
         max-width: 100%;
@@ -1028,13 +847,8 @@ footer{
     }
 
     .texto-princ1{
-    
         width: 339px;
-        height: 182px;
-        margin-top: 32px;
-        margin-left: 1px;
-        letter-spacing: 0.02em;
-        line-height: 27px;
+        font-size: 18px;
     }
 
     .texto-princ2{

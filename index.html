@@ -12,13 +12,18 @@
 
 <body>
     <nav class="background-nav">
-        <div>
+        <div class="nav-bar">
             <ul class="nav-itens">
                 <li><a href="#sobre-nos" class="btn-SobreNos"><span class="btn-text">Sobre nós</span></a></li>
                 <div class="detalhe1"></div>
                 <li><a href="#vetor-onda" class="btn-Cafeteria"><span class="btn-text">Cafeteria</span></a></li>
                 <div class="detalhe2"></div>
-                <li class="logo"><img src="img/logo_escura 1.svg" alt="logo"> <li class="text-logo">Palavras Cafeinadas</li></li>
+                <li class="logo">
+                    <div class="logo-space">
+                        <img src="img/logo_escura 1.svg" alt="logo"> 
+                    </div>
+                    <p class="text-logo">Palavras Cafeinadas</p>
+                </li>
                 <li><a href="#entrar-em-contato" class="btn-Contato"><span class="btn-text">Contato</span></a></li>
                 <div class="detalhe3"></div>
                 <li class="btn-Phone"><img src="img/Vector.svg" alt="Telefone"><span class="btn-text" >19-991256972</span></li>
@@ -39,16 +44,21 @@
     <main>
         <section class="box-sobre-nos">
             <div class="espacamento-sobre-nos">
-                <div class="retangulo"></div>
-                <h1 id="sobre-nos">Sobre Nós</h1>
-                <p class="texto-princ1">A principal proposta da Cafeteria Palavras Cafeinadas é oferecer um espaço aconchegante, contendo um ambiente moderno e um atendimento completo, nela é possível provar refeições saborosas e <br> ler excelentes livros.</p>
-                <p class="texto-princ2">O sonho de Carolina era criar um espaço aonde pudesse unir seu amor por culinária e a enorme paixão por literatura, venha saber mais dessa jornada:</p>
-                <div class="xicara"><img src="img/xicaras.svg" alt="xicaras de café"></div>
-                <button onclick="faleConosco()" class="btn-sobre-nos-main" id="text-sobre-nos">Fale conosco<img src="img/Union.svg"></button>
+                <div> 
+                    <div class="retangulo"></div>
+                    <h1 id="sobre-nos">Sobre Nós</h1>
+                    <p class="texto-princ1">A principal proposta da Cafeteria Palavras Cafeinadas é oferecer um espaço aconchegante, contendo um ambiente moderno e um atendimento completo, nela é possível provar refeições saborosas e <br> ler excelentes livros.</p>
+                    <p class="texto-princ2">O sonho de Carolina era criar um espaço aonde pudesse unir seu amor por culinária e a enorme paixão por literatura, venha saber mais dessa jornada:</p>
+                    <button onclick="faleConosco()" class="btn-sobre-nos-main" id="text-sobre-nos">Fale conosco<img src="img/Union.svg"></button>
+                </div>
+                <div> 
+                    <div class="xicara"><img src="img/xicaras.svg" alt="xicaras de café"></div>
+                </div>
             </div>            
         </section>
 
         <section class="background-cafeteria">
+            <div id="vetor-onda"></div> 
             <h1 id="texto-cafeteria">Cafeteria</h1>
             <div class="detalhe-caf"></div>
             <div class="scroll-imagens">
@@ -79,44 +89,43 @@
                 </div>
               </div>
         </section>
-
-        <div id="vetor-onda"></div> 
         
         <section class="box-entrar-em-contato">
             <div class="retangulo2">
                 <h1 id="entrar-em-contato" style = "white-space: nowrap";>Entre em Contato</h1>
             </div>
-            
-            <div class="retangulo3">
-                <ul class="icon-style">  
-                    <li class="icon-position"><img src="img/Telefone.svg" alt=""><span class="text-icons" >19-991256972</span></li>
-                    <li class="icon-position"><img src="img/Email.svg" alt=""><span class="text-icons" >contato@gmail.com</span></li>
-                    <li class="icon-position"><img src="img/Localizacao.svg" alt=""><span class="text-icons" >Av. Paulista, 1324 - Bela <br> Vista, São Paulo - SP, <br> 01310-100</span></li><br>
-                    <br><li class="line"></li>
-                    <li class="icon-position"><img src="img/Instagram.svg" alt=""><span class="text-icons" >@palavrascafeinadas</span></li>
-                    <li class="icon-position"><img src="img/Facebook.svg" alt=""><span class="text-icons" >Palavras Cafeinadas</span></li>
-                    <li class="logo-branca"><img src="img/Logo Branca.svg" alt=""></li>
-                    <li class="text-logo-branca">Palavras Cafeinadas</li>
-                </ul> 
-                <div class="retangulo4">
-                    <form autocomplete="on">
-                            <div class="campo" >
-                                <label for="nome"><strong>Nome</strong></label>
-                                <input class="nome-box" type="text" name="nome" id="nome" required>
-                            </div>
-    
-                            <div class="campo" >
-                                <label for="email"><strong>E-Mail</strong></label>
-                                <input type="email" name="email" id="email" required>
-                            </div>
-
-                        <div class="campo2">
-                            <label for="mensagem"><strong>Mensagem</strong></label>
-                            <input type="text" name="mensagem" id="mensagem" required>
-                        </div>
-                        <button onclick="enviarMensagem()" class="btn-form" id="text-button-form";>Enviar Mensagem<img src="img/Union.svg"></button>
-                    </form>
+            <div class="box">
+                <div class="retangulo3">
+                    <ul class="icon-style">  
+                        <li class="icon-position"><img src="img/Telefone.svg" alt=""><span class="text-icons" >19-991256972</span></li>
+                        <li class="icon-position"><img src="img/Email.svg" alt=""><span class="text-icons" >contato@gmail.com</span></li>
+                        <li class="icon-position"><img src="img/Localizacao.svg" alt=""><span class="text-icons" >Av. Paulista, 1324 - Bela <br> Vista, São Paulo - SP, <br> 01310-100</span></li><br>
+                        <br><li class="line"></li>
+                        <li class="icon-position"><img src="img/Instagram.svg" alt=""><span class="text-icons" >@palavrascafeinadas</span></li>
+                        <li class="icon-position"><img src="img/Facebook.svg" alt=""><span class="text-icons" >Palavras Cafeinadas</span></li>
+                        <li class="logo-branca"><img src="img/Logo Branca.svg" alt=""></li>
+                        <li class="text-logo-branca">Palavras Cafeinadas</li>
+                    </ul> 
                 </div>
+                    <div class="retangulo4">
+                        <form autocomplete="on">
+                                <div class="campo" >
+                                    <label for="nome"><strong>Nome</strong></label>
+                                    <input class="nome-box" type="text" name="nome" id="nome" required>
+                                </div>
+        
+                                <div class="campo" >
+                                    <label for="email"><strong>E-Mail</strong></label>
+                                    <input type="email" name="email" id="email" required>
+                                </div>
+    
+                            <div class="campo2">
+                                <label for="mensagem"><strong>Mensagem</strong></label>
+                                <input type="text" name="mensagem" id="mensagem" required>
+                            </div>
+                            <button onclick="enviarMensagem()" class="btn-form" id="text-button-form";>Enviar Mensagem<img src="img/Union.svg"></button>
+                        </form>
+                    </div>
             </div>
         </section>
     </main>

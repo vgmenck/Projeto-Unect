@@ -10,7 +10,7 @@ function faleConosco() {
 
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("text-button-form").addEventListener("click", function(event) {
-        event.preventDefault(); // Evitar o comportamento padrão do botão (recarregar a página)
+        //event.preventDefault(); // Evitar o comportamento padrão do botão (recarregar a página)
         enviarMensagem();
     });
 });
