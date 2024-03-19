@@ -662,7 +662,6 @@ input, button {
     display: none;
 }
 
-
 footer{
     display: flex;
     position: relative;
@@ -711,22 +710,17 @@ footer{
     .campo input[type="text"]{
         width: 509px;
     }
-
     .campo2 input[type="email"]{
         width: 509px;
     }
-
     .campo3 input[type="text"]{
         width: 509px;
     }
-
     .logo-branca{   
         margin-left: 60px;
     }
-    
     .text-logo-branca{
         margin-left: 0px;
-
     }
 }
 
@@ -761,11 +755,9 @@ footer{
     .campo2 input[type="email"]{
         width: 359px;
     }
-
     .campo3 input[type="text"]{
         width: 359px;
     }
-
 }
 
 @media (max-width: 960px){
