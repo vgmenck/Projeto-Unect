@@ -299,10 +299,6 @@ body {
     color: #F0F0F0;
 }
 
-.posicionamento-onda{
-    width: 100%;
-}
-
 #vetor-onda {
     background-image: url(img/Cafe\ onda.svg);
     width: 100%;
@@ -507,7 +503,7 @@ body {
     display: flex;
     width: 690px;
     height: 711px;
-    background: #ebdacc;
+    background: #F5F3ED;
     border-radius: 0px 8px 8px 0px;
     box-shadow: -4px 7px 29px 6px #1F0C0033;
 }
@@ -551,7 +547,7 @@ input, button {
     margin-left: 41px;
 }
 
-.campo input[type="text"], .campo input[type="email"]{
+.campo input[type="text"]{
     width: 609px;
     height: 70px;
     background: #F5F5F5;
@@ -562,8 +558,9 @@ input, button {
 
 .campo2 {
     width: 609px;
-    height: 254px;
-    word-wrap: break-word;
+    height: 104px;
+    margin-top: 43px;
+    margin-bottom: 32px;
 }
 
 .campo2 label {
@@ -578,7 +575,34 @@ input, button {
     margin-left: 41px;
 }
 
-.campo2 input[type="text"]{
+.campo2 input[type="email"]{
+    width: 609px;
+    height: 70px;
+    background: #F5F5F5;
+    border: 1px solid #8F542E;
+    border-radius: 8px;
+    margin-left: 41px;
+}
+
+.campo3 {
+    width: 609px;
+    height: 254px;
+    word-wrap: break-word;
+}
+
+.campo3 label {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #1F0C00;  
+    margin-left: 41px;
+}
+
+.campo3 input[type="text"]{
     width: 609px;
     height: 220px;
     background: #F5F5F5;
@@ -621,6 +645,23 @@ input, button {
     color: #F0F0F0;
     white-space: nowrap;
 }
+
+.box-nos-encontre-aqui{
+    display: none;
+}
+
+#text-nos-encontre{
+    display: none;
+}
+
+.box-icons{
+    display: none;
+}
+
+.icons-encontre-aqui{
+    display: none;
+}
+
 
 footer{
     display: flex;
@@ -718,16 +759,32 @@ footer{
         position: relative;    
     }
 
+    .nav-bar {
+        height: 64px;
+    }
+
+    .nav-itens{
+        justify-content: left;
+    }
+
+    .logo-space{
+        width: 25px;
+        height: 31.9px;
+    }
+
     .logo {
-        text-align: left;
         margin-left: 45px;
         margin-top: 16px;
         margin-bottom: 16.1;
     }
 
     .text-logo{
-        margin-top: 0px;
-        margin-left: 0px;
+        display: flex;
+        height: 22px;
+        line-height: 21.8px;
+        margin-left: 79px;
+        margin-top: -25px;
+
     }
 
     .btn-SobreNos {
@@ -817,11 +874,15 @@ footer{
         display: none;
     }
 
+    .espacamento-sobre-nos{
+        margin-top: 0px;
+    }
+
     .box-sobre-nos {
         width: 100%;
         height: 490px;
-        margin-left: 24px;
-        margin-top: 33.66px;
+        margin-left: -46px;
+        margin-top: 32.66px; 
     }
 
     .retangulo{
@@ -837,8 +898,8 @@ footer{
         
         width: 133px;
         height: 42px;
-        margin-top: -21px;
-        margin-left: 6.5px;
+        margin-top: -41px;
+        margin-left: 10px;
         font-family: 'Cormorant Garamond';
         font-style: normal;
         font-size: 24px;
@@ -848,15 +909,22 @@ footer{
 
     .texto-princ1{
         width: 339px;
+        height: 182px;
         font-size: 18px;
+        margin-top: 32px;
+        margin-left: 0px;
+        letter-spacing: 0.02em;
+        line-height: 27px;
+
     }
 
     .texto-princ2{
         
         width: 339px;
-        height: 128px;
+        height: 182px;
+        font-size: 18px;
         margin-top: 20px;
-        margin-left: 1px;
+        margin-left: 0px;
         letter-spacing: 0.02em;
         line-height: 27px;
 
@@ -868,11 +936,11 @@ footer{
 
     .btn-sobre-nos-main{
     
-
         padding: 10px 24px;
         gap: 8px;
-        margin-top: 446px;
-        margin-left: -86.5px;
+        margin-top: -11px;
+        margin-left: 72.5px;
+        margin-bottom: 64.05px;
         width: 194px;
         height: 44px;
         align-items: center;
@@ -890,8 +958,8 @@ footer{
    
     #vetor-onda {
         background-image: url(img/onda\ responsiva.svg);
-        height: 109.95px;
-        margin-top: -589px;
+        height: 135px;
+        margin-top: -54.95px;
     }
 
     .background-cafeteria{
@@ -901,22 +969,21 @@ footer{
 
     #texto-cafeteria{
         height: 42px;
-        margin-top: 119px;
+        margin-top: 39px;
+        margin-left: -70px;
         font-size: 24px;
         line-height: 42px;
         letter-spacing: 0.02em;
     }
 
     .detalhe-caf{
-        width: 160px;
-        height: 0px;
-        border: 2px solid #B2784A;
-        border-radius: 10px;
         margin-bottom: 48px;
+        width: 160px;
+        margin-left: -70px;
     }
     
     .scroll-imagens {
-        left: 24px;
+        padding-left: 24px;
     }
 
     .quadrado{
@@ -969,42 +1036,171 @@ footer{
     
     .box-entrar-em-contato{
         height: 616px;
-        margin-top: 540px;
+        margin-top: 64px;
         margin-bottom: 48px;
         
     }
     
+    .box{
+        justify-content: left;
+    }
+
     .retangulo2{
         width: 274px;
         height: 21px;
-        margin-left: 24px;        
+        margin-left: 24px;     
+        margin-top: 11px;   
+        margin-bottom: 32px;
     }
-    
-    .retangulo3{
-        
-        display: none;
-        
-    }
-    
+
     #entrar-em-contato {
-        height: 42px;
-        top: 1545px;
-        
+        margin-top: -20px;
+        height: 42px;  
         font-size: 24px;
         line-height: 42px;
         letter-spacing: 0.02em;
     }
     
+    .retangulo3{
+        display: none;
+    }
+    
     .retangulo4 {
+        width: 341px;
+        height: 542px;
         margin-left: 24px;
         margin-right: 25px;
+        border-radius: 8px 8px 8px 8px;
     }
     
     .campo {
         width: 293px;
+        height: 86px;
+        margin-top: 33px;
+        margin-bottom: 0px;
+    }
+
+    .campo label {
+        font-size: 20px;
+        margin-left: 24px;
+    }
+    
+    .campo input[type="text"]{
+        width: 293px;
+        height: 48px;
+        margin-left: 24px;
     }
     
     .campo2 {
         width: 293px;
+        height: 86px;
+        margin-top: 16px;
+        margin-bottom: 0px;
     }
+    
+    .campo2 label {
+        font-size: 20px;
+        margin-left: 24px;
+    }
+    
+    .campo2 input[type="email"]{
+        width: 293px;
+        height: 48px;
+        margin-left: 24px;
+    }
+
+    .campo3 {
+        width: 293px;
+        height: 198px;
+        margin-top: 16px;
+        word-wrap: break-word;
+    }
+    
+    .campo3 label {
+
+        font-size: 20px;
+        letter-spacing: 0.02em;
+        margin-left: 24px;
+    }
+    
+    .campo3 input[type="text"]{
+        width: 293px;
+        height: 160px;
+        margin-left: 24px;
+    }
+    
+    .btn-form{
+        padding: 10px 24px;
+        gap: 8px;
+        width: 224px;
+        height: 44px;
+        margin-top: 32px;
+        margin-left: 23.5px;
+    }
+
+    #text-button-form{
+
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+
+    }
+
+    .box-nos-encontre-aqui{
+        display: flex;
+        width: 242px;
+        height: 128px;
+        margin-top: 48px;
+        margin-left: 74px;
+        margin-bottom: 64px;
+        flex-direction: column;
+    }
+    
+    .text-nos-encontre{
+        display: flex;
+        white-space: nowrap;
+        width: 177px;
+        height: 42px;
+        margin-left: 32px;
+        margin-top: 0px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 42px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #1F0C00;
+    }
+    
+    .box-icons{
+        display: flex;
+        list-style-type: none;
+        width: 242px;
+        height: 70px;
+        margin-top: 16px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    
+    .box-text{
+        width: 100%;
+        height: 35.73px;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        padding-left: 24px;
+        padding-right: 111px;
+    }
+    
+    .texto-footer{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
 }
