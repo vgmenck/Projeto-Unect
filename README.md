@@ -6,6 +6,8 @@ https://www.figma.com/file/FkBGAlnBsLNp3lZxVlUMTb/PS-2024_1---Palavras-Cafeinada
 
 O projeto tinha como objetivo a reprodução dessa landing page e da landing page mobile.
 
+![Landing Page Mobile](https://github.com/vgmenck/Projeto-Unect/blob/main/img/LandingPageMobile.png) 
+
 ## Autores
    
 Isadora Costa Baía
