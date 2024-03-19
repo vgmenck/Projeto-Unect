@@ -708,15 +708,29 @@ footer{
     .retangulo4{
         width: 590px;
     }
-    .campo input[type="text"], .campo input[type="email"]{
+    .campo input[type="text"]{
         width: 509px;
     }
-    .campo2 input[type="text"]{
+
+    .campo2 input[type="email"]{
         width: 509px;
+    }
+
+    .campo3 input[type="text"]{
+        width: 509px;
+    }
+
+    .logo-branca{   
+        margin-left: 60px;
+    }
+    
+    .text-logo-branca{
+        margin-left: 0px;
+
     }
 }
 
-@media (max-width: 1020px){
+@media (max-width: 1050px){
     .btn-Contato{
         margin-left: 45px;
     }
@@ -741,17 +755,82 @@ footer{
     .retangulo4{
         width: 440px;
     }
-    .campo input[type="text"], .campo input[type="email"]{
+    .campo input[type="text"]{
         width: 359px;
     }
-    .campo2 input[type="text"]{
+    .campo2 input[type="email"]{
         width: 359px;
     }
+
+    .campo3 input[type="text"]{
+        width: 359px;
+    }
+
 }
 
-@media (max-width: 860px){
+@media (max-width: 960px){
 
+    
+    .btn-Cafeteria{
+        margin-left: 80px;
+    }
+
+    .logo {
+
+        margin-left: 80px;
+    }
+
+    .btn-Contato{
+        margin-left: 60px;
+    }
+ 
+    .btn-Phone{
+
+        margin-left: 80px;
+    }
+
+    .logo-branca{   
+        margin-left: 60px;
+    }
+    
+    .text-logo-branca{
+        margin-left: 0px;
+
+    }   
+
+    .line{
+        width: 200px;
+    }
+
+    .retangulo4{
+        width: 400px;
+    }
+
+    .campo {
+        width: 400px;
+    }
+
+    .campo2 {
+        width: 400px;
+    }
+
+    .campo3 {
+        width: 400px;
+    }
+
+    .campo input[type="text"]{
+        width: 330px;
+    }
+    .campo2 input[type="email"]{
+        width: 330px;
+    }
+
+    .campo3 input[type="text"]{
+        width: 330px;
+    }
+    
 }
+
 @media (max-width: 480px) {
     .background-nav {
         max-width: 100%;
