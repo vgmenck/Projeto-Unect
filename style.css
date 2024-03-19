@@ -720,14 +720,7 @@ footer{
         width: 509px;
     }
 
-    .logo-branca{   
-        margin-left: 60px;
-    }
-    
-    .text-logo-branca{
-        margin-left: 0px;
 
-    }
 }
 
 @media (max-width: 1050px){
@@ -765,6 +758,15 @@ footer{
     .campo3 input[type="text"]{
         width: 359px;
     }
+
+    .logo-branca{   
+        margin-left: 60px;
+    }
+    
+    .text-logo-branca{
+        margin-left: 0px;
+
+    }   
 
 }
 
